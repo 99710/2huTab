@@ -1,0 +1,17 @@
+{
+    "name": "Pichuun_test",
+    "version": "1.0",
+    "description": "Description",
+    "permissions": ["tabs", "storage"],
+    "background": {
+      "scripts": ["main.js"],
+      "persistent": false
+    },
+	"icons": {"48": "tempicon.png"},
+	"browser_action": { 
+        "default_icon": {"48": "tempicon.png",
+						"128": "tempicon.png"},
+		"default_popup": "popup.html" 		
+    },
+    "manifest_version": 2
+}
