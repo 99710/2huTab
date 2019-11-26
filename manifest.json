@@ -1,16 +1,16 @@
 {
-    "name": "Pichuun_test",
+    "name": "Touhou Tab Sounds",
     "version": "1.0",
-    "description": "Description",
+    "description": "An extension that plays touhou SFX on tab open/close",
     "permissions": ["tabs", "storage"],
     "background": {
       "scripts": ["main.js"],
       "persistent": false
     },
-	"icons": {"48": "tempicon.png"},
+	"icons": {"48": "icon.png"},
 	"browser_action": { 
-        "default_icon": {"48": "tempicon.png",
-						"128": "tempicon.png"},
+        "default_icon": {"48": "icon.png",
+						"128": "icon.png"},
 		"default_popup": "popup.html" 		
     },
     "manifest_version": 2
