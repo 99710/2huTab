@@ -22,7 +22,7 @@ chrome.tabs.onCreated.addListener(function(tabid, created) {
 
 chrome.tabs.goBack.addListener(function(tabid, back) {
 	if(JSON.parse(localStorage.play_audio)){
-		audio = new Audio('oof.mp3');
+		audio = new Audio('test.wav');
 		//localStorage.playback_rate = 1;
 		//audio.playbackRate = localStorage.playback_rate;
 		audio.volume = 0.3;
